@@ -33,18 +33,17 @@ public class ArrayService2D {
 	  
   }
   
-  public static int[] sumRowWise(int[][] arr) {
-	  int[] temp=new int[arr.length];
-	 
-	  for(int i=0;i<arr.length;i++) {
-		  
-		  for(int j=0;j<arr[i].length;j++) {
-			  temp[i]=temp[i]+arr[i][j];
-		  }
-		  
-	  }
-	  return temp;
-  }
+  1 2 3
+  4 5 6
+  
+  temp -> 0:6,1:15
+  
+  c
+  
+  1 2 3
+  4 5 6
+  
+  temp->0:1+4,1:7,2:9
   
   public static int[] sumColumnWise(int[][] arr) {
 	  int[] temp=new int[arr[0].length];
